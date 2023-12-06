@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background: url('Dead Space.jpg') center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px; 
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control,
+.form-select,
+.btn {
+    margin-bottom: 15px;
+}
